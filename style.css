@@ -22,6 +22,10 @@ a {
     color: white;
 }
 
+a:hover {
+    color: red;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -103,11 +107,46 @@ button {
     margin: 5vh;
 }
 
+.section-two {
+    min-height: 40vh;
+}
+
+.img-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10vw;
+}
+
+.image {
+    height: 250px;
+    width: 250px;
+    border: 2px solid #3882F6;
+    border-radius: 30px;
+}
+
+.imgcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    text-align: center;
+}
+
+.imgcaption p {
+    margin-top: 10px;
+    font-style: italic;
+}
+
 .section-three {
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .notification button {
